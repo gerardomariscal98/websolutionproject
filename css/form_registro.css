@@ -1,0 +1,64 @@
+#formularioRegistro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+#contenedorRegistro {
+  background-color: white;
+  width: 70%;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+#oli {
+  display: none;
+}
+
+#contenedorDeFormulario {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+}
+
+#formRegistro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#pform {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#pform span {
+  color: red;
+}
+
+#formRegistro span{
+  color: red;
+}
+
+#formRegistro input {
+  border: solid 1px black;
+}
+
+#boxRegis {
+  margin-top: 5px;
+}
+
+#botonEnviar {
+  margin: 20px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+#botonEnviar:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedores {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+p {
+  margin-top: 20px;
+  line-height: 23px;
+}
+
+h2 {
+  margin-top: 20px;
+}

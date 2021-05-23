@@ -1,0 +1,65 @@
+.con_boton {
+  position: fixed;
+  display: flex;
+  top: 35%;
+  left: 0%;
+  transition: left 0.7s;
+  margin: 0;
+  padding: 0;
+}
+
+.boton_banner {
+  background: blue;
+  padding: 10px;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.boton_banner:hover {
+  background: rgba(0, 0, 255, 0.5);
+}
+
+#check_banner {
+  display: none;
+}
+
+
+#check_banner:checked ~ .con_boton {
+  left: 70%;
+}
+
+#check_banner:checked ~ #bann_registro {
+  left: 0%;
+}
+
+#bann_registro {
+  position: fixed;
+  text-align: center;
+  width: 70%;
+  color: white;
+  border-bottom-right-radius: 30%;
+  background-color: blue;
+  top: 35%;
+  left: -70%;
+  transition: left 0.7s;
+}
+
+#bann_registro h3 {
+  padding: 15px;
+}
+
+#bann_registro input {
+  margin-bottom: 20px;
+}
+
+#botonDescu {
+  border: solid 2px black;
+  padding: 5px;
+  background-color: orangered;
+}
+
+#oli:checked ~ #formularioRegistro {
+  display: flex;
+}
+
+

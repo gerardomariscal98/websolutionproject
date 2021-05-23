@@ -1,0 +1,28 @@
+.testi-cancer {
+  margin-top: 60px;
+  display: flex;
+}
+
+.conten-testi-cancer {
+  text-align: center;
+  margin: auto;
+}
+
+
+#video1 {
+  width: 80%;
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+#video2 {
+  width: 80%;
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+#video3 {
+  width: 80%;
+  margin-top: 20px;
+  max-width: 700px;
+}

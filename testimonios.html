@@ -1,0 +1,114 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!---ARCHIVOS CSS VINCULADOS-->
+
+  <link rel="stylesheet" href="css/estilo_header.css">
+  <link rel="stylesheet" href="css/estilo_general.css">
+  <link rel="stylesheet" href="css/estilo_menu.css">
+  <link rel="stylesheet" href="css/iconos.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/testimonios.css">
+  <link rel="stylesheet" href="css/banner_registro.css">
+  <link rel="stylesheet" href="css/form_registro.css">
+</head>
+<body>
+  <header>
+    <div class="contenedor_header">
+      <h1>La Solución</h1>
+      <input type="checkbox" id="menu-bar">
+      <label class="icon-menu" for="menu-bar"></label>
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="testimonios.html">Testimonios</a>
+        <a href="">Contacto</a>
+        <a href="">Productos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="testi-cancer">
+      <div class="conten-testi-cancer">
+        <h2>Testimonios de personas con Cáncer</h2>
+
+        <video src="videos/Cmo crear tu primera pgina de captura - Academiadeltraficocom (1).mp4" id="video1" controls onplay="setTimeout(abrirVentana,10000)"></video>
+
+        <h2>Testimonios de personas con Diabétes</h2>
+
+        <video src="videos/Cmo crear tu primera pgina de captura - Academiadeltraficocom (1).mp4" id="video2" controls></video>
+        
+        <h2>Testimonios de personas con Pulmonía</h2>
+
+        <video src="videos/Cmo crear tu primera pgina de captura - Academiadeltraficocom (1).mp4" id="video3" controls></video>
+
+      </div>
+    </section>
+
+    <input type="checkbox" id="oli">
+
+    <div>
+      <input type="checkbox" id="check_banner">
+      <div class="con_boton">
+        <label for="check_banner" class="boton_banner">></label>
+      </div>
+
+      <div id="bann_registro">
+       <div>
+          <h3>¿Sabías que puedes acceder a descuentos exclusivos en todos nuestros productos?</h3>
+          
+          <label for="oli" id="botonDescu">¡Si quiero descuentos!</label>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="formularioRegistro">
+      <div id="contenedorRegistro">
+        <div id="contenedorDeFormulario">
+        <h2>Obtenga descuentos únicos</h2>
+        <p>Registrate llenando los datos y nosotros nos pondremos en contacto con usted.</p>
+
+        <p id="pform">(<span>*</span>) Obligatorio</p>
+
+        <form action="enviar.php"  name="contac-form" method="POST" id="formRegistro">
+
+          <p>Nombre <span>*</span></p>
+          <input type="text" name="nombre" required>
+
+          <p>Correo electrónico <span>*</span></p>
+          <input type="email" name="email">
+
+          <p>Teléfon <span>*</span></p>
+          <input type="tel" name="tel">
+          <p>Código de registro</p>
+          <input type="checkbox" id="checkCodigo">
+          <label for="checkCodigo">No tengo un codigo de registro</label> <br>
+          <input type="text" id="boxRegis" name="codigo"><br>
+
+          <input type="submit" id="botonEnviar">
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    <div class="conten-footer">
+      <h4>Todos los derechos reservados</h4>
+
+      <h4>LASOLUCION.COM S.R.L.</h4>
+    </div>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
