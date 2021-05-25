@@ -5,8 +5,6 @@ function cambiar() {
   if (document.getElementById("boxRegis").value == "1010") {
     document.getElementById("boxRegis").value = "elihu";
   }
-
-  alert(document.getElementById("boxRegis").value);
 }
 
 
