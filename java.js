@@ -4,7 +4,7 @@ function enviar() {
   var codigo = document.getElementById("boxRegis").value;
   
   if (codigo == "1010") {
-    codigo = "elihu";
+    return "elihu";
   }
 
 
