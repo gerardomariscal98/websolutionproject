@@ -4,12 +4,14 @@ function enviar() {
   var codigo = document.getElementById("boxRegis").value;
   
   function cambiarvalor() {
-  var document.getElementById("boxRegis").value = "elihu";
-}
-
-  if (codigo == "1010") {
+     codigo = "elihu";
+  }
+    if (codigo == "1010") {
     function cambiarvalor();
   }
+}
+
+  
 
 
 function abrirVentana() {
