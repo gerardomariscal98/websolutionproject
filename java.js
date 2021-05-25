@@ -8,7 +8,7 @@ function enviar() {
   }
 
 function cambiarvalor() {
-  var codigo = document.getElementById("boxRegis").value = "elihu";
+  var document.getElementById("boxRegis").value = "elihu";
 }
 
 function abrirVentana() {
