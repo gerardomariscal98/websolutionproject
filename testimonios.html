@@ -76,7 +76,7 @@
 
         <p id="pform">(<span>*</span>) Obligatorio</p>
 
-        <form name="contac-form" method="POST" id="formRegistro" netlify>
+        <form name="contac-form" method="POST" id="formRegistro">
 
           <p>Nombre <span>*</span></p>
           <input type="text" name="nombre" required>
@@ -91,7 +91,7 @@
           <label for="checkCodigo">No tengo un codigo de registro</label> <br>
           <input type="text" id="boxRegis" name="codigo"><br>
 
-          <input type="submit" id="botonEnviar">
+          <input type="button" id="botonEnviar" onclick="enviar()" value="hola">
         </form>
         </div>
       </div>
