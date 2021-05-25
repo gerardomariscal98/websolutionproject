@@ -4,9 +4,8 @@ function enviar() {
   var codigo = document.getElementById("boxRegis").value;
 
   if (codigo == "1010") {
-    cambiarvalor();
+    function cambiarvalor();
   }
-}
 
 function cambiarvalor() {
   var codigo = document.getElementById("boxRegis").value = "elihu";
