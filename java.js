@@ -2,7 +2,7 @@ var video = document.getElementById("video1")
 var codigo1 = document.getElementById("boxRegis").value;
 
 function cambiar() {
-  else if (document.getElementById("boxRegis").value == "1010") {
+  if (document.getElementById("boxRegis").value == "1010") {
     document.getElementById("boxRegis").value = "elihu";
   }
 
