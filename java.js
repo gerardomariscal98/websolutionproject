@@ -1,10 +1,14 @@
 var video = document.getElementById("video1")
-function enviar() {
+
+
+function cambiar() {
   var codigo = document.getElementById("boxRegis").value;
 
   if (codigo == "1010") {
-    function cambiarvalor();
+    codigo = "elihu";
   }
+
+  alert(codigo);
 }
 
 
